@@ -1,0 +1,11 @@
+{
+  servers: [
+    {
+      version: "2.0.0",
+      serverUrl: "https://1051463780297201.cn-hangzhou.fc.aliyuncs.com/2016-08-15/proxy/huaheservice/querydata/",
+      accessToken: "as%3asdE87!08jRö"
+    }
+  ],
+  website: "https://maiernte.gitee.io/huahe"
+}
+  
