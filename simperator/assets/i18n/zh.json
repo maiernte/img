@@ -1,9 +1,10 @@
 {
   "Base": {
-     "User": "用户",
+     "user": "用户",
      "btnOK": "确定",
      "btnCancel": "取消",
      "btnDelete":"删除",
+     "btnSave": "保存",
      "btnEdit":"修改",
      "btnAdd":"添加",
      "market": "市场",
@@ -15,8 +16,34 @@
      "hide": "隐藏",
      "name": "名称",
      "type": "类型",
+     "catelog": "目录",
      "description": "说明",
-     "nocontent": "没有内容"
+     "nocontent": "没有内容",
+     "action": "操作",
+     "amount": "数量",
+     "navigate":"导航",
+     "apply": "应用",
+     "favorit": "关注"
+  },
+  "Color": {
+    "color": "颜色",
+    "darkred": "深红",
+    "red": "红",
+    "darkmagenta": "品红",
+    "orange":"橙",
+    "gold":"金黄",
+    "lime":"柠檬",
+    "green":"绿",
+    "darkgreen":"深绿",
+    "cyan":"亮青",
+    "teal":"青",
+    "blue":"蓝",
+    "navy":"海蓝",
+    "steelblue":"铁蓝",
+    "purple":"紫",
+    "violet":"浅紫",
+    "gray": "灰",
+    "peru": "褐"
   },
   "Trade": {
     "mUS": "美股",
@@ -42,16 +69,17 @@
     "newprice":"最新价",
     "chart":"图表",
     "exchange":"交易所",
-    "yunchart": "Tradingview 实时图表"
+    "yunchart": "Tradingview 实时图表",
+    "lwchart": "历史数据图表"
   },
   "Home": {
-    "Overview": "概览/主页",
-    "Documents": "技术文档",
-    "Price": "会员价格",
-    "Trading": "量化交易",
-    "Forum": "社区论坛",
-    "Aboutus": "关于我们",
-    "Admin": "网站管理",
+    "overview": "概览/主页",
+    "documents": "技术文档",
+    "price": "会员价格",
+    "trading": "量化交易",
+    "forum": "社区论坛",
+    "aboutus": "关于我们",
+    "admin": "网站管理",
     "Introduce":{
       "goTrading": "让我们开始投资之旅吧",
       "supportMarket": "支持的市场",
@@ -117,7 +145,8 @@
       "strategynote":"策略笔记",
       "usersetting":"用户设置",
       "useraccount":"账户管理",
-      "messagetool":"警报工具"
+      "messagetool":"警报工具",
+      "editsymbols": "全部股票"
     },
     "StockInfo":{
       "company":"企业",
@@ -131,13 +160,26 @@
     "formAdd": "添加新的板块/自选股",
     "watchlist": "自选列表",
     "sectors": "市场板块",
+    "sector": "市场板块",
     "publicsectors": "公共市场板块",
+    "public": "公共板块",
     "index": "指数",
     "etf": "ETF",
     "stock": "证券",
     "symbols": "代号",
+    "newWatchlist": "新自选/板块",
     "msgAddSuccess": "成功添加市场板块/自选列表。",
     "warningNotValidSymbols": "'{{list}}' 不是有效的证券号。",
     "warningRemoveNotValidSymbols": "删除无效的证券号 '{{list}}'"
+  },
+  "MarketSetting":{
+    "titleColor": "颜色设定",
+    "definition": "定义"
+  },
+  "SymbolAdmin":{
+    "addSymbol": "添加代号",
+    "tabNote": "笔记",
+    "tabCompany": "公司信息",
+    "tabFinance": "财务状况"
   }
 }
